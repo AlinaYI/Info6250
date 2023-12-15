@@ -1,0 +1,80 @@
+html,body {
+    font-family: sans-serif;
+    background-color: papayawhip;
+}
+
+.form{
+    width: 80%;
+    min-width: 600px;
+    margin: 64px auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 32px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+
+.form form{
+padding: 32px 0;
+}
+
+.input-field {
+position: relative;
+width: 100%;
+margin-bottom: 24px;
+border-radius: 50px;
+}
+
+.username, .word {
+width: 100%;
+padding: 16px 12px;
+font-size: 18px;
+}
+
+.input-field label {
+position: absolute;
+left: 12px;
+top: 16px;
+font-size: 18px;
+color: #000103;
+}
+
+.btn {
+padding: 15px 30px;
+font-size: 22px;
+background-color: burlywood;
+color: white;
+cursor: pointer;
+margin-top: 24px;
+border-radius: 20px;
+}
+.btn:hover {
+background-color: #000103;
+}
+
+.error-msg {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin: 20px;
+}
+
+.logout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.warning{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin: 20px;
+}
+
+.success{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+    margin: 20px;
+}

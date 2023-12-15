@@ -1,0 +1,62 @@
+html{
+    background-color: papayawhip;
+}
+
+#app {
+    width: 90%;
+    margin: 1rem auto;
+    background-color: whitesmoke;
+    padding: 1rem;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.listings {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+}
+
+.product {
+    grid-column: span 4;
+    background-color: burlywood;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+  
+.not-in-cart {
+    display: none;
+}
+
+.carts {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    background-color: rgb(223, 223, 223);
+}
+
+.cart {
+    grid-column: span 4;
+    text-align: center;
+    padding: 1rem;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: burlywood;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,40 @@
+/* set main page color */
+body, html{
+    height: 100%;
+    margin: 0;
+    background-color: papayawhip;
+    font-family: sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+}
+
+/* header and footer have different color than main */
+/* using flexbox ,h1 next to the cat pic */
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: burlywood;
+}
+
+.footer{
+    background-color: burlywood;
+    position: sticky;
+}
+
+.header-logo{
+    align-self: flex-start;
+    aspect-ratio: 1/1;
+}
+
+.header-title{
+    margin: 0 auto;
+}
+
+.main{
+    padding: 10px;
+}

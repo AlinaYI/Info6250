@@ -1,0 +1,10 @@
+/* color border and padding */
+/* set the list-style-type CSS property for the list to "\1F431" (cat face) */
+.animal-list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: "\1F431";
+    gap: 1rem;
+    border: 5px solid royalblue;
+    padding: 5rem;
+}
